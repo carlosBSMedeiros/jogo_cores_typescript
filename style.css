@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: cornsilk;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+main{
+    width: 50vw;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid ;
+    padding:  1rem 2rem;
+    background-color: white;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.form-jogo{
+    width: 25vw;
+}
+
+.cor-vidas-jogo{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-vidas{
+    display: flex;
+    flex-direction: row;
+}
+
+.coracao-jogo{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.coracao-jogo img{
+    margin: 0 0.1rem
+}
+
+.cor-vidas-jogo p {
+    align-self: center;
+}
+
+.painel-cores{
+    min-height: 60%;
+    min-width: 60%;
+    align-self: center;
+    margin-top: 0.6rem;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+.item-lista{
+    color:black;
+    list-style: none;
+    padding: 0.2rem 0;
+    padding-left: 0.2rem;
+    margin: 0.1rem 0;
+    border: 0.5px solid black;
+    transition: 1s;
+}
+
+.item-lista:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-jogo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.console-jogo{
+    border-radius: 5px;
+    border: solid 1px black;
+    resize: none;
+    height: 3.5rem;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 8px 2rem 0 2rem;
+}
+
+#botao-reiniciar{
+    padding: 1rem;
+    background-color: rgba(11, 194, 11, 0.726);
+    border-radius: 5px;
+    border: solid 1px black;
+    transition: 1s;
+}
+
+#botao-reiniciar:hover{
+    cursor: pointer;
+    background-color: rgb(11, 194, 11);
+}
+
+
